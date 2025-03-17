@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box1{
+            width: 100px;
+            height: 100px;
+        }
+        .box{
+            background-color: blueviolet;
+            height: 300px;
+            /*position: absolute;
+            top: 200px;*/
+        }
+        .box-2{
+            background-color: black;
+        }
+        .bg1{
+            background-color: red;
+            /*position: absolute;
+            left: 100px;
+            top: -50px;*/
+            /* top, left, right, bottom */
+            position: absolute;
+            left: 50%;
+        }
+        .bg2{
+            background-color: green;
+            position: absolute;
+            left: 250px;
+            top: 50px;
+        }
+        .bg3{
+            background-color: aquamarine;
+            position: absolute;
+            left: 520px;
+            top: 30px;
+        }
+        .bg4{
+            background-color: bisque;
+        }
+        .bg5{
+            background-color: brown;
+        }
+        .bg6{
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box1 bg1"></div>
+        <div class="box1 bg2"></div>
+        <div class="box1 bg3"></div>
+    </div>
+    <div class="box-2">
+        <div class="box1 bg4"></div>
+        <div class="box1 bg5"></div>
+        <div class="box1 bg6"></div>
+    </div>
+</body>
+</html>
