@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Pretendard Black'), local('Pretendard-Black'),
+        url(../fonts/Pretendard-Black.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Pretendard ExtraBold'), local('Pretendard-ExtraBold'),
+        url(../fonts/Pretendard-ExtraBold.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Pretendard ExtraBold'), local('Pretendard-ExtraBold'),
+        url(../fonts/Pretendard-ExtraBold.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Pretendard Bold'), local('Pretendard-Bold'),
+        url(../fonts/Pretendard-Bold.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Pretendard SemiBold'), local('Pretendard-SemiBold'),
+        url(../fonts/Pretendard-SemiBold.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Pretendard Medium'), local('Pretendard-Medium'),
+        url(../fonts/Pretendard-Medium.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pretendard Regular'), local('Pretendard-Regular'),
+        url(../fonts/Pretendard-Regular.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Pretendard Light'), local('Pretendard-Light'),
+        url(../fonts/Pretendard-Light.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Pretendard ExtraLight'), local('Pretendard-ExtraLight'),
+        url(../fonts/Pretendard-ExtraLight.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Pretendard Thin'), local('Pretendard-Thin'),
+        url(../fonts/Pretendard-Thin.woff) format('woff');
+  }
+
+body {
+ font-family: 'Pretendard';
+}
+
+.d-flex{
+    display: flex;
+}
+
+nav{
+    width: 1774px;
+    margin: auto;
+    padding: 26px 0;
+    justify-content: space-between;
+}
+
+.navi{
+    gap: 0 48px;
+/*float는 gap 사용 못함ㅋ*/ 
+}
+
+.navi a{
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.icon ul{
+    gap: 0 11px;
+}
+
+.none{
+    display: none;
+}
+
+img{
+    width: 100%;
+}
+
+
+@media(max-width:1773px){
+    nav{
+        width: 100%;
+        padding: 26px
+    }
+}
+
+@media(max-width:1280px){
+    .none{
+        display: none;
+    }
+    .navi{
+        gap: 0 11px;
+    }
+    nav{
+        justify-content: space-between;
+        padding: 24px 0;
+    }
+}
+@media(max-width:560px){
+    .navi{
+        display: none;
+    }
+    .iicon{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
+    nav{
+        width: 90%;
+    }
+}
+/*
+@media(min-width:600px)
+/*max보다 min이 편함. 한번만 쓰면 됨{
+    
+}
+
+@media only screen and(max-width:600px){
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    body{
+        background-color: blue;
+    }
+}
+*/
+@media(max-width:1920px) {
+    .navi a{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: -2.5%;
+    }
+    .logo{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: -2.5%;
+    }
+    .navi{
+        gap: 0 24px;
+    }
+
+}
+
+
+@media(max-width:1280px) {
+    .navi a{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: -2.5%;
+    }
+    .logo{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: -2.5%;
+    }
+    .navi{
+        gap: 0 24px;
+    }
+
+}
+
+@media(max-width:768px){
+    .navi{
+        display:none;
+    }
+    .iicon{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
+    nav{
+        width: 90%;
+    }
+}
+@media(max-width:540px){
+    .navi{
+        display:none;
+    }
+    .iicon{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
+}
