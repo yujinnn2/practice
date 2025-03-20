@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- css -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <nav class="d-flex">
         <div class="logo">
@@ -24,20 +29,127 @@
         <div class="icon">
             <ul class="d-flex">
                 <li class="none"><a href="#">
-                    <img src="assets/images/icon--search.svg" alt="">
-                 
-                </a></li>
+                        <img src="assets/images/icon--search.svg" alt="">
+                    </a></li>
                 <li class="none"><a href="#">
-                    <img src="assets/images/icon--bag.svg" alt="">
-                </a></li>
+                        <img src="assets/images/icon--bag.svg" alt="">
+                    </a></li>
                 <li class="m-navi"><a href="#">
-                    <img src="assets/images/material-symbols_menu-rounded.svg" alt="">
-                </a></li>
+                        <img src="assets/images/material-symbols_menu-rounded.svg" alt="">
+                    </a></li>
             </ul>
         </div>
     </nav>
     <section class="slider">
         <img src="assets/images/kv.jpg" alt="kv">
     </section>
+    <section class="content-slide">
+        <div class="content-textTitle">
+            <h2>
+                Pulvinar elementum interger<br> enim neque volutpat
+            </h2>
+            <p>
+                Pulvinar elementum interger enim neque volutpat
+            </p>
+        </div>
+        <div class="slider">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="/practice/assets/images/image1.svg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/practice/assets/images/image1.svg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/practice/assets/images/image1.svg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/practice/assets/images/image1.svg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/practice/assets/images/image1.svg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/practice/assets/images/image1.svg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/practice/assets/images/image1.svg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/practice/assets/images/image1.svg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- slider -->
+
+    <section class="content w-1316">
+        <div class="content-textTitle">
+            <h2>
+                Special writer
+            </h2>
+            <p>
+                Election Season Recommended creators
+            </p>
+        </div>
+        <div class="row d-flex gap ">
+            <div class="column-4">
+                <div class="img-section">
+                    <img src="/practice/assets/images/imgae5.svg" alt="">
+                </div>
+                <div class="text-section">
+                    <h3>Beaker Background</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit officiis odio eaque in rerum cum,
+                        nihil nisi, beatae rem vitae iure. Nulla saepe quo minima possimus deserunt illum tenetur dolor.
+                    </p>
+                </div>
+            </div>
+            <div class="column-4">
+                <div class="img-section">
+                    <img src="/practice/assets/images/imgae5.svg" alt="">
+                </div>
+                <div class="text-section">
+                    <h3>Beaker Background</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit officiis odio eaque in rerum cum,
+                        nihil nisi, beatae rem vitae iure. Nulla saepe quo minima possimus deserunt illum tenetur dolor.
+                    </p>
+                </div>
+            </div>
+            <div class="column-4">
+                <div class="img-section">
+                    <img src="/practice/assets/images/imgae5.svg" alt="">
+                </div>
+                <div class="text-section">
+                    <h3>Beaker Background</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit officiis odio eaque in rerum cum,
+                        nihil nisi, beatae rem vitae iure. Nulla saepe quo minima possimus deserunt illum tenetur dolor.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 6,
+            loop: true,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+
+
 </body>
+
 </html>
