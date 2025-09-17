@@ -103,9 +103,9 @@ function hexToRgba(hex: string, alpha = 1) {
   const bigint = parseInt(
     h.length === 3
       ? h
-          .split("")
-          .map((c) => c + c)
-          .join("")
+        .split("")
+        .map((c) => c + c)
+        .join("")
       : h,
     16
   );

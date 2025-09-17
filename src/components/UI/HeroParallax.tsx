@@ -108,8 +108,8 @@ export const Header = () => {
         Publisher Portfolio <br />노유진
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-        웹 표준과 접근성을 지켜 누구나 편하게 쓸 수 있는 웹/앱을 만들고싶은 신입 퍼블리셔입니다. 
-        트렌디한 디자인은 물론 안정적인 기능까지, 
+        웹 표준과 접근성을 지켜 누구나 편하게 쓸 수 있는 웹/앱을 만들고싶은 신입 퍼블리셔입니다.
+        트렌디한 디자인은 물론 안정적인 기능까지,
         최고의 사용자 경험을 제공하기 위해 끊임없이 노력하고 있습니다.
       </p>
     </div>
@@ -146,7 +146,7 @@ export const ProductCard = ({
           src={product.thumbnail}
           height="600"
           width="600"
-          className="object-cover object-left-top absolute h-full w-full inset-0"
+          className="object-cover object-center absolute h-full w-full inset-0"
           alt={product.title}
         />
       </a>

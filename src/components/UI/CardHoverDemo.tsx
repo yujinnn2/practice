@@ -23,19 +23,19 @@ const skills: SkillItem[] = [
     title: "Adobe Photoshop",
     description: "이미지 편집, 리터칭, 디지털 아트워크 제작",
     iconSrc:
-      "https://github.com/user-attachments/assets/750b1396-a10a-46e8-9f73-f610d9fb008d",
+      "https://i.ibb.co/jvbKrJbk/Ps.webp",
     accentHex: ACCENT,
   },
   {
     title: "Xd",
     description: "UI/UX 설계, 프로토타입 제작, 협업 중심 웹/앱 디자인",
-    iconSrc: "/skills/adobe-xd.svg",
+    iconSrc: "https://i.ibb.co/NgczJ28z/xd.webp",
     accentHex: ACCENT,
   },
   {
     title: "Figma",
     description: "실시간 협업 디자인, 프로토타입 제작 및 관리",
-    iconSrc: "/skills/figma.svg",
+    iconSrc: "https://i.ibb.co/wNBCK06h/Figma.webp",
     accentHex: ACCENT,
   },
   {
@@ -47,10 +47,9 @@ const skills: SkillItem[] = [
   {
     title: "CSS3",
     description: "반응형 레이아웃 구현, 크로스 브라우징 최적화",
-    iconSrc: "/skills/css3.svg",
+    iconSrc: "https://i.ibb.co/VcLTPB94/css.webp",
     accentHex: ACCENT,
   },
-
   {
     title: "JavaScript",
     description: "동적 기능 구현, 사용자 상호작용 강화",
