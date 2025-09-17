@@ -1,7 +1,11 @@
 "use client";
 import React from "react";
-import { HeroParallax } from "../components/ui/HeroParallax";
-import { NavbarDemo } from "../components/ui/NavbarDemo";
+import { HeroParallax } from "../components/UI/HeroParallax";
+import { NavbarDemo } from "../components/UI/NavbarDemo";
+import AnimatedThemeTogglerDemo from '../components/MagicUI/AnimatedThemeTogglerDemo';
+import SparklesPreview from "../components/UI/SparklesDemo";
+import CardHoverEffectDemo from "@/components/UI/CardHoverDemo";
+import Page from "../app/portfolio/page"
 
 
 export default HeroParallaxDemo 
@@ -12,6 +16,10 @@ export function HeroParallaxDemo() {
     <>
     <NavbarDemo/>
     <HeroParallax products={products} />
+    <AnimatedThemeTogglerDemo/>
+    <CardHoverEffectDemo/>
+    <Page/>
+    <SparklesPreview/>
     </>
   )
 }
