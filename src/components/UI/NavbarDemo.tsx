@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./NavbarMenu";
-import { cn } from "../../app/lib/utils";
+import { cn } from "../../lib/utils";
 
 export function NavbarDemo() {
   return (
@@ -29,20 +29,12 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/branding">Branding</HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Pricing">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
-          </div>
-        </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Skills">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Design</HoveredLink>
-            <HoveredLink href="/individual">Frontend</HoveredLink>
-            <HoveredLink href="/team">Library</HoveredLink>
-            <HoveredLink href="/enterprise">Deployment</HoveredLink>
+            <HoveredLink href="/skills/design">Design</HoveredLink>
+            <HoveredLink href="/skills/frontend">Frontend</HoveredLink>
+            <HoveredLink href="/skills/library">Library</HoveredLink>
+            <HoveredLink href="/skills/deployment">Deployment</HoveredLink>
           </div>
         </MenuItem>        
         <MenuItem setActive={setActive} active={active} item="Portfolio">
@@ -83,6 +75,14 @@ function Navbar({ className }: { className?: string }) {
               src="https://i.ibb.co/FkB6PjZ8/image-13.png"
               description="Notion 포트폴리오"
             />
+          </div>
+        </MenuItem>
+        <MenuItem setActive={setActive} active={active} item="Contact">
+          <div className="flex flex-col space-y-4 text-sm">
+            <HoveredLink href="https://quilt-wombat-0e8.notion.site/Web-Publisher-Portfolio-1f3b276b29738079ae2ee3416e4fa9a1?pvs=74">Notion</HoveredLink>
+            <HoveredLink href="https://github.com/yujinnn2">Github</HoveredLink>
+            <HoveredLink href="mailto:yujinee11@naver.com">E-mail</HoveredLink>
+            <HoveredLink href="tel:+821056626191">Call</HoveredLink>
           </div>
         </MenuItem>
       </Menu>

@@ -4,8 +4,10 @@ import { HeroParallax } from "../components/UI/HeroParallax";
 import { NavbarDemo } from "../components/UI/NavbarDemo";
 import AnimatedThemeTogglerDemo from '../components/MagicUI/AnimatedThemeTogglerDemo';
 import SparklesPreview from "../components/UI/SparklesDemo";
-import CardHoverEffectDemo from "@/components/UI/CardHoverDemo";
+import CardHoverEffectDemo from "../components/UI/CardHoverDemo";
 import Page from "../app/portfolio/page"
+import Footer from "../components/UI/FooterDemo"
+
 
 
 export default HeroParallaxDemo
@@ -18,12 +20,11 @@ export function HeroParallaxDemo() {
       <HeroParallax products={products} />
       <AnimatedThemeTogglerDemo />
       <CardHoverEffectDemo />
-      <br />
-      <br />
-      <br />
-      <br />
+      <br /><br /><br /><br />
       <Page />
+      <br /><br /><br /><br />
       <SparklesPreview />
+      <Footer/>
     </>
   )
 }
@@ -91,32 +92,32 @@ export const products = [
   },
   {
     title: "Carmore 자동차",
-    link: "https://renderwork.studio",
+    link: "https://carmore.netlify.app/",
     thumbnail:
       "https://i.ibb.co/k2nZ9hpx/image-10.png",
   },
   {
     title: "Carmore 자동차",
-    link: "https://cremedigital.com",
+    link: "https://carmore.netlify.app/",
     thumbnail:
       "https://i.ibb.co/cXQ8yBzr/image-7.png",
   },
   {
     title: "Carmore 자동차",
-    link: "https://goldenbellsacademy.com",
+    link: "https://carmore.netlify.app/",
     thumbnail:
       "https://i.ibb.co/7trmtQbQ/image-9.png",
     
   },
   {
     title: "Carmore 자동차",
-    link: "https://invoker.lol",
+    link: "https://carmore.netlify.app/",
     thumbnail:
-      "https://i.ibb.co/0yCWfY5X/image.png",
+      "https://i.ibb.co/snQ1s2M/image-34.png",
   },
   {
     title: "Carmore 자동차",
-    link: "https://efreeinvoice.com",
+    link: "https://carmore.netlify.app/",
     thumbnail:
       "https://i.ibb.co/KjShpZnj/image-8.png",
   },
