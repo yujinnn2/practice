@@ -18,6 +18,10 @@ export function HeroParallaxDemo() {
       <HeroParallax products={products} />
       <AnimatedThemeTogglerDemo />
       <CardHoverEffectDemo />
+      <br />
+      <br />
+      <br />
+      <br />
       <Page />
       <SparklesPreview />
     </>
@@ -25,95 +29,95 @@ export function HeroParallaxDemo() {
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
-    thumbnail:
-      "https://i.ibb.co/fGXW622D/image-1.png",
-  },
-  {
-    title: "Cursor",
-    link: "https://cursor.so",
+    title: "부평종합시장",
+    link: "https://bupyeongmarket.netlify.app/assets/pages/map",
     thumbnail:
       "https://i.ibb.co/JwDLNHW3/image-2.png",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
+    title: "부평종합시장",
+    link: "https://bupyeongmarket.netlify.app/",
     thumbnail:
       "https://i.ibb.co/B5VMMNmL/image-3.png",
   },
+   {
+    title: "부평종합시장",
+    link: "https://bupyeongmarket.netlify.app/",
+    thumbnail:
+      "https://i.ibb.co/fGXW622D/image-1.png",
+  },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
+    title: "부평종합시장",
+    link: "https://bupyeongmarket.netlify.app/assets/pages/market",
     thumbnail:
       "https://i.ibb.co/DDwD1K8M/image-4.png",
   },
   {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
+    title: "부평종합시장",
+    link: "https://bupyeongmarket.netlify.app/assets/pages/notice_list",
     thumbnail:
       "https://i.ibb.co/fdVnc5s8/image-5.png",
   },
-  {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "https://i.ibb.co/wr6GsFqR/image-6.png"
-  },
-
-  {
-    title: "Algochurn",
-    link: "https://algochurn.com",
+   {
+    title: "Liv;ON 인테리어",
+    link: "https://liveon1018.netlify.app/gallery",
     thumbnail:
       "https://i.ibb.co/qF13VqbW/image-9.png",
   },
   {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
+    title: "Liv;ON 인테리어",
+    link: "https://liveon1018.netlify.app/brand",
     thumbnail:
-      "https://i.ibb.co/992PXPrr/image-10-1.png",
+      "https://i.ibb.co/wr6GsFqR/image-6.png"
   },
-  {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
+    {
+    title: "Liv;ON 인테리어",
+    link: "https://liveon1018.netlify.app/product",
+    thumbnail:
+      "https://i.ibb.co/qLDDNC7Z/image-11.png",
+  },
+   {
+    title: "Liv;ON 인테리어",
+    link: "https://liveon1018.netlify.app/virtual",
     thumbnail:
       "https://i.ibb.co/MDT3wLdn/image-8.png",
   },
   {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
+    title: "Liv;ON 인테리어",
+    link: "https://liveon1018.netlify.app/news",
     thumbnail:
-      "https://i.ibb.co/qLDDNC7Z/image-11.png",
+      "https://i.ibb.co/992PXPrr/image-10-1.png",
   },
   {
-    title: "Renderwork Studio",
+    title: "Carmore 자동차",
     link: "https://renderwork.studio",
     thumbnail:
-      "https://i.ibb.co/MDnhJdyt/image-12.png",
+      "https://i.ibb.co/k2nZ9hpx/image-10.png",
   },
   {
-    title: "Creme Digital",
+    title: "Carmore 자동차",
     link: "https://cremedigital.com",
     thumbnail:
-      "https://i.ibb.co/nFLkdMT/image-16.png",
+      "https://i.ibb.co/cXQ8yBzr/image-7.png",
   },
   {
-    title: "Golden Bells Academy",
+    title: "Carmore 자동차",
     link: "https://goldenbellsacademy.com",
     thumbnail:
-      "https://i.ibb.co/FLzVzTpH/image-15.png",
+      "https://i.ibb.co/7trmtQbQ/image-9.png",
+    
   },
   {
-    title: "Invoker Labs",
+    title: "Carmore 자동차",
     link: "https://invoker.lol",
     thumbnail:
-      "https://i.ibb.co/ksTj5cNC/image-14.png",
+      "https://i.ibb.co/0yCWfY5X/image.png",
   },
   {
-    title: "E Free Invoice",
+    title: "Carmore 자동차",
     link: "https://efreeinvoice.com",
     thumbnail:
-      "https://i.ibb.co/7dg1G5fR/image-13.png",
+      "https://i.ibb.co/KjShpZnj/image-8.png",
   },
 ];

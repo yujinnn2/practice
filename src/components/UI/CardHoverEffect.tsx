@@ -43,18 +43,16 @@ export const HoverEffect: React.FC<HoverEffectProps> = ({
               "focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900/20",
             ].join(" ")}
           >
-            <div className="flex items-start gap-3">
+            <div className="flex items-start gap
+            
+            -3">
               {/* 아이콘 */}
               <div
-                className="grid h-12 w-12 place-items-center rounded-xl ring-1"
+                className="grid h-12 w-12 place-items-center-top rounded-xl ring-1"
                 style={{
-                  backgroundColor: item.accentHex
-                    ? hexToRgba(item.accentHex, 0.08)
-                    : "rgba(0,0,0,0.03)",
+                  background: "none",
                   borderColor: "transparent",
-                  boxShadow: item.accentHex
-                    ? `0 0 0 1px ${hexToRgba(item.accentHex, 0.15)} inset`
-                    : "0 0 0 1px rgba(0,0,0,0.06) inset",
+                  boxShadow: "none",
                 }}
               >
                 <img
@@ -63,16 +61,12 @@ export const HoverEffect: React.FC<HoverEffectProps> = ({
                   className="h-6 w-6 object-contain"
                   loading="lazy"
                   referrerPolicy="no-referrer"
-                  onError={(e) => {
-                    // 이미지 깨지면 대체 아이콘으로 표시 (원하면 경로 바꿔도 됨)
-                    e.currentTarget.src = "/skills/fallback.svg";
-                  }}
                 />
               </div>
 
               {/* 텍스트 */}
               <div className="min-w-0">
-                <h3 className="text-[15px] font-semibold leading-6 text-neutral-900 dark:text-neutral-50">
+                <h3 className="text-[15px] font-semibold leading-6 text-neutral-900 dark:text-neutral-50 ml-2">
                   {item.title}
                 </h3>
                 <p className="mt-1 text-[12px] leading-5 text-neutral-500 dark:text-neutral-400">

@@ -190,7 +190,7 @@ function ProjectCard({ project }: { project: Project }) {
 // ------------------------------------------------------------
 export default function PortfolioPage() {
   return (
-    <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+    <main className="w-full max-w-6xl mx-auto px-6">
       {/* Page header */}
       <div className="mb-6 flex items-center gap-2 text-sm text-zinc-500 dark:text-zinc-400">
         <span className="grid h-8 w-8 place-items-center rounded-full border bg-white dark:bg-zinc-900 dark:border-zinc-800">🏷️</span>
@@ -202,7 +202,7 @@ export default function PortfolioPage() {
         <aside className="hidden lg:block">
           <div className="sticky top-8 select-none space-y-1">
             <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
-              Portfolio
+              Portfolioddd
             </h2>
             <p className="text-sm text-zinc-500 dark:text-zinc-400">포트폴리오</p>
           </div>
